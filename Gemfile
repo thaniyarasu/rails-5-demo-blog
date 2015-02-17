@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.0'
 gem 'rails', github: "rails/rails"
 gem 'arel', github: "rails/arel"
 
@@ -45,3 +45,4 @@ group :development, :test do
   gem 'method_source'
 end
 
+gem 'rails_12factor', group: :production
